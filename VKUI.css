@@ -1,0 +1,222 @@
+/*
+
+VKUI for CSS
+By 3peekawOwD
+
+*/
+
+/* Blue Button*/
+.blue_button.button_wide {
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: block;
+}
+.blue_button.hover, .blue_button:hover {
+  background-color: #5b88bd;
+  text-decoration: none;
+}
+ .blue_button {
+  padding: 7px 16px 8px;
+  margin: 0;
+  font-size: 12.5px;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+  vertical-align: top;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  background-color: #5181b8;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.blue_button::-moz-focus-inner {
+  border: 0;
+}
+/*Gray Button*/
+
+.gray_button.button_wide {
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: block;
+}
+.gray_button.hover, .gray_button:hover {
+  text-decoration: none;
+}
+ .gray_button {
+  padding: 7px 16px 8px;
+  margin: 0;
+  font-size: 12.5px;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+  vertical-align: top;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  background-color: #f2f3f5;
+  color: #3f8ae0;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.gray_button::-moz-focus-inner {
+  border: 0;
+}
+/* OutLine button*/
+.outline_button.button_wide {
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: block;
+}
+.outline_button.hover, .outline_button:hover {
+  text-decoration: none;
+}
+ .outline_button {
+  padding: 7px 16px 8px;
+  margin: 0;
+  font-size: 12.5px;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+  vertical-align: top;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  background-color: #fff;
+  color: #3f8ae0;
+  border: 1px solid #3f8ae0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.outline_button::-moz-focus-inner {
+  border: 0;
+}
+/* Green Button */
+.green_button.button_wide {
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: block;
+}
+.green_button.hover, .green_button:hover {
+  text-decoration: none;
+}
+ .green_button {
+  padding: 7px 16px 8px;
+  margin: 0;
+  font-size: 12.5px;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+  vertical-align: top;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  background-color: #4bb34b;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.green_button::-moz-focus-inner {
+  border: 0;
+}
+/* Red Button */
+.red_button.button_wide {
+  width: 100%;
+  padding-left: 3px;
+  padding-right: 3px;
+  display: block;
+}
+.red_button.hover, .red_button:hover {
+  text-decoration: none;
+}
+ .red_button {
+  padding: 7px 16px 8px;
+  margin: 0;
+  font-size: 12.5px;
+  display: inline-block;
+  zoom: 1;
+  cursor: pointer;
+  white-space: nowrap;
+  outline: none;
+  font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
+  vertical-align: top;
+  line-height: 15px;
+  text-align: center;
+  text-decoration: none;
+  background: none;
+  background-color: #e64646;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.red_button::-moz-focus-inner {
+  border: 0;
+}
+/*input*/
+.text_input {
+  margin: 0;
+  border: 1px solid #3f8ae0;
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: 0;
+  -webkit-appearance: none;
+  appearance: none;
+  text-overflow: ellipsis;
+  height: 44px;
+  line-height: 19px;
+  font-size: 16px;
+  color: #000;
+  padding: 12px;
+  position: relative;
+  z-index: 2;
+  background: 0 0;
+}
+.select {
+    margin: 0;
+  border: 1px solid #3f8ae0;
+  border-radius: 10px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  box-shadow: none;
+  outline: 0;
+  -webkit-appearance: none;
+    appearance: none;
+  text-overflow: ellipsis;
+  height: 44px;
+  line-height: 19px;
+  font-size: 16px;
+  color: #000;
+  padding: 12px;
+  position: relative;
+  z-index: 2;
+  background: 0 0;
+}
