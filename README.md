@@ -30,7 +30,7 @@ We support all HTML5 browsers.
 
 Soon
 
-# [Demo](https://3peekawOwD.github.io/VKUI/index.html)
+## [Demo](https://3peekawOwD.github.io/VKUI/index.html)
 
 # Report a problem
 
