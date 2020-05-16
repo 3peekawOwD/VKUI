@@ -15,11 +15,6 @@ Import this css:
 <html>
 	<head>
 		<title>Page Title</title>
-		<style>
-		    * {
-		        font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
-		    }
-		</style>
 	</head>
 	<body>
 	    <button class="blue_button">Hello World</button>
@@ -34,6 +29,8 @@ We support all HTML5 browsers.
 # Documentation
 
 Soon
+
+# [Demo](https://3peekawOwD.github.io/VKUI/index.html)
 
 # Report a problem
 
