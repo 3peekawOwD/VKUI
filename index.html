@@ -44,8 +44,9 @@
             }
         </style>
         <link rel="stylesheet" href="https://3peekawOwD.github.io/VKUI/VKUI.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     </head>
-    <body>
+    <body style="opacity:0;transition:.5s;">
         <ul>
             Blue Button (.blue_button):
             <br />
@@ -117,5 +118,10 @@
             <input class="switch" id="s1" type="checkbox" class="switch" />
             <label for="s1">Switch</label>
         </ul>
+        <script>
+            $(document).ready(function() {    
+                $("body").css("opacity", "1");
+            });
+        </script>
     </body>
 </html>
