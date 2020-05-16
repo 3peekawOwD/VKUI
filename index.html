@@ -1,61 +1,120 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Page Title</title>
-		<style>
-		    * {
-		        font-family: -apple-system,BlinkMacSystemFont,Roboto,Helvetica Neue,Geneva,"Noto Sans Armenian","Noto Sans Bengali","Noto Sans Cherokee","Noto Sans Devanagari","Noto Sans Ethiopic","Noto Sans Georgian","Noto Sans Hebrew","Noto Sans Kannada","Noto Sans Khmer","Noto Sans Lao","Noto Sans Osmanya","Noto Sans Tamil","Noto Sans Telugu","Noto Sans Thai",sans-serif,arial,Tahoma,verdana;
-		    }
-		</style>
-    <link rel="stylesheet" href="https://3peekawOwD.github.io/VKUI/VKUI.css">
-	</head>
-	<body>
-	    Blue Button (.blue_button):
-	    <br>
-	    <br>
-	    <button class="blue_button">Blue Button</button>
-	    <br><br>
-	    Gray Button (.gray_button):
-	    <br>
-	    <br>
-	    <button class="gray_button ">Gray Button</button>
-	    <br>
-	    <br>
-	    Outline Button (.outline_button):
-	    <br>
-	    <br>
-	    <button class="outline_button">Outline Button</button>
-	    <br>
-	    <br>
-	    Green Button (.green_button):
-	    <br>
-	    <br>
-	    <button class="green_button">Green Button</button>
-	    <br>
-	    <br>
-	    Red Button (.red_button):
-	    <br>
-	    <br>
-	    <button class="red_button">Red Button</button>
-	    <br>
-	    <br>
-	    Input (.text_input)
-	    <br>
-	    <br>
-	    <input class="text_input">
-	    <br>
-	    <br>
-	    Select (.select)
-	    <br>
-	    <br>
-	    <select class="select" placeholder="Выберите пол">
-	    <option>Выберите пол</option>
-        <option value="m">Мужской</option>
-        <option value="f">Женский</option>
-		    <br>
-		    <br>
-		    <input class="checkbox" id="c1" type="checkbox">
-    		    <label for="c1">Checkbox</label>
-        </select>
-	</body>
+    <head>
+        <title>Page Title</title>
+        <style>
+            * {
+                font-family: -apple-system, BlinkMacSystemFont, Roboto, Helvetica Neue, Geneva, "Noto Sans Armenian", "Noto Sans Bengali", "Noto Sans Cherokee", "Noto Sans Devanagari", "Noto Sans Ethiopic", "Noto Sans Georgian",
+                    "Noto Sans Hebrew", "Noto Sans Kannada", "Noto Sans Khmer", "Noto Sans Lao", "Noto Sans Osmanya", "Noto Sans Tamil", "Noto Sans Telugu", "Noto Sans Thai", sans-serif, arial, Tahoma, verdana;
+            }
+            ul {
+                margin: 12px;
+                padding: 0;
+                list-style: none;
+                width: 100%;
+                max-width: 320px;
+            }
+            ul li {
+                margin: 16px 0;
+                position: relative;
+            }
+            html {
+                box-sizing: border-box;
+            }
+            * {
+                box-sizing: inherit;
+            }
+            *:before,
+            *:after {
+                box-sizing: inherit;
+            }
+            body {
+                min-height: 100vh;
+                font-family: "Inter", Arial, sans-serif;
+                color: #8a91b4;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                /*background: #f6f8ff;*/
+            }
+            @media (max-width: 800px) {
+                body {
+                    flex-direction: column;
+                }
+            }
+        </style>
+        <link rel="stylesheet" href="https://3peekawOwD.github.io/VKUI/VKUI.css" />
+    </head>
+    <body>
+        <ul>
+            Blue Button (.blue_button):
+
+            <button class="blue_button">Blue Button</button>
+            <br />
+            <br />
+            Gray Button (.gray_button):
+            <br />
+            <br />
+            <button class="gray_button">Gray Button</button>
+            <br />
+            <br />
+            Outline Button (.outline_button):
+            <br />
+            <br />
+            <button class="outline_button">Outline Button</button>
+            <br />
+            <br />
+            Green Button (.green_button):
+            <br />
+            <br />
+            <button class="green_button">Green Button</button>
+            <br />
+            <br />
+            Red Button (.red_button):
+            <br />
+            <br />
+            <button class="red_button">Red Button</button>
+            <br />
+            <br />
+            Input (.text_input)
+            <br />
+            <br />
+            <input class="text_input" />
+            <br />
+            <br />
+            Select (.select)
+            <br />
+            <br />
+            <select class="select" placeholder="Выберите пол">
+                <option>Select gender</option>
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select>
+            <br />
+            <br />
+            Checkbox (.checkbox)
+            <br />
+            <br />
+            <input class="checkbox" id="c1" type="checkbox" />
+            <label for="c1">Checkbox</label>
+            <br />
+            <br />
+            Radio (.radio)
+            <br />
+            <br />
+            <input class="radio" id="r1" type="radio" name="radio" value="1" />
+            <label for="r1">Radio</label>
+            <br />
+            <br />
+            <input id="r2" class="radio" type="radio" name="radio" value="2" checked />
+            <label for="r2">Radio</label>
+            <br />
+            <br />
+            Switch (.switch)
+            <br />
+            <br />
+            <input class="switch" id="s1" type="checkbox" class="switch" />
+            <label for="s1">Switch</label>
+        </ul>
+    </body>
 </html>
