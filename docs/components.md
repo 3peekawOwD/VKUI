@@ -79,7 +79,7 @@ Example:
 <input class="radio" id="r1" type="radio" name="radio" value="1" />
 <label for="r1">Radio</label>
 <input id="r2" class="radio" type="radio" name="radio" value="2" checked />
-<label for="r2">Radio</label>
+<label for="r2">Radio</label> 
 ```
 
 ### Switch
