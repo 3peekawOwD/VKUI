@@ -26,9 +26,7 @@ Import this css:
 
 We support all HTML5 browsers.
 
-# Documentation
-
-Soon
+# [Documentation](https://github.com/3peekawOwD/VKUI/tree/master/docs)
 
 ## [Demo](https://3peekawOwD.github.io/VKUI/index.html)
 
